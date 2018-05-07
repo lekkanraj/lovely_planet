@@ -597,13 +597,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .box {
-  padding: 50px 20px;
+ /*  padding: 50px 20px; */
+ padding:41px 20px 10px 20px;
   margin-bottom: 50px;
-  text-align: center;
+ /*  text-align: center; */
   border: 1px solid #e6e6e6;
   /* height: 200px; */
   height: auto;
-  min-height:500px;
+  min-height:100px;
   position: relative;
   background: #fafafa;
 }
@@ -977,4 +978,16 @@ body.mobile-nav-active #mobile-nav-toggle {
     min-height: 400px;
     border: none;
     padding: 2em;
+}
+
+/***************Projects**************/
+.ul-li-content,.ol-li-content{
+	 font-size: 14px;
+}
+
+.image-group {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 24%;
 }
